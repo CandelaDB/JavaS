@@ -2,7 +2,7 @@
 alert("¡Bienvenido/a AURA!");
 class saludar {
     constructor (usuario) {
-        this. usuario = usuario;
+        this.usuario = usuario;
     }
     saludarlo() {
         return `Hola ${this.usuario} ya podes elegir tu suervicio en AURA!`;
@@ -81,7 +81,7 @@ let usuarioNuevo = new saludar(prompt("¿Cual es tu nombre?"));
 alert(usuarioNuevo.saludarlo());
 
 //opciones
-opcion - parseInt(prompt(`Elija una opcion \n 1-Reservar servicio \n 2-Finalizar la reserva \n 3-Salir` ));
+opcion = parseInt(prompt(`Elija una opcion \n 1-Reservar servicio \n 2-Finalizar la reserva \n 3-Salir` ));
 alert (`El precio de los servicios es \n 1- ${CORTE}: $${preciocorte} \n 2-${LAVADO}: $${preciolavado} \n 3-${TINTURA}: $${preciotintura} \n 4-${PEINADO}: $${preciopeinado}`);
 while (opcion !==3) {
     if(opcion ===1) {
